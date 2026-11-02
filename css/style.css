@@ -700,6 +700,29 @@ section {
 }
 .cert-verify:hover { color: var(--white); border-color: var(--white); }
 
+/* TryHackMe live badge */
+.thm-badge-section {
+  margin-top: 3rem;
+  background: var(--bg3);
+  border: 4px solid var(--border);
+  box-shadow: 4px 4px 0 var(--border2);
+  padding: 1.5rem;
+  text-align: center;
+}
+.thm-badge-label {
+  font-family: var(--font-pixel);
+  font-size: 8px;
+  color: var(--accent2);
+  letter-spacing: 2px;
+  margin-bottom: 1.25rem;
+}
+.thm-badge-wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 /* ===== EXP BAR ===== */
 .exp-bar-container {
   background: var(--bg2);
